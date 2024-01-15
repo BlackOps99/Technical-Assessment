@@ -1,8 +1,8 @@
-# ASTAR Full Stack Developer Technical Assessment
+# ASTAR Back-end Developer Technical Assessment
 
 ## Project Overview
 
-Congratulations on being shortlisted for the Full Stack Developer role at ASTAR! This technical assessment is designed to evaluate your skills in database design, user authentication, API integration, and Laravel API development.
+Congratulations on being shortlisted for the Back-end role at ASTAR! This technical assessment is designed to evaluate your skills in database design, user authentication, API integration, and Laravel API development.
 
 ## Table of Contents
 
@@ -37,8 +37,6 @@ Congratulations on being shortlisted for the Full Stack Developer role at ASTAR!
 - **cat_id:** Foreign key referencing the Categories table.
 - **partition_id:** Foreign key referencing the Partitions table.
 
-Ensure the database design follows best practices for security and data integrity.
-
 ## User Authentication and Authorization
 
 Implement strong user authentication and authorization mechanisms:
@@ -50,22 +48,22 @@ Implement strong user authentication and authorization mechanisms:
   - **type:** User type (e.g., Admin or User).
   - **phone:** User's phone number.
 
-Provide separate access levels for users and administrators. Ensure that only authorized users can access certain features or perform specific actions.
+Provide a separate access levels for users and administrators.
 
 ## API Integration and Database Management
 
-Demonstrate your skills in API integration, database management, and relations processing. Showcase your ability to handle API requests effectively and efficiently.
+For API Integration Used Sanctum
 
 ## CRUD Operations using Laravel API
 
-Create endpoints for each table (Category, Partitions, Items) that support CRUD operations (Create, Read, Update, Delete) using Laravel API. Ensure that access to the tables (Category, Partitions, Items) is restricted to authorized users with the "Admin" user type.
+Created endpoints for each table (Category, Partitions, Items) that support CRUD operations (Store, Show, Update, Delete) using Laravel API. 
 
 ## Getting Started
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/astar-fintech-project.git
+   git clone https://github.com/BlackOps99/Technical-Assessment.git
    ```
 
 2. Install dependencies:
@@ -98,10 +96,4 @@ Create endpoints for each table (Category, Partitions, Items) that support CRUD 
 
 ## Additional Notes
 
-- Please ensure to thoroughly comment your code for better understanding.
-- Provide clear documentation on API endpoints and usage.
-
-Good luck! We look forward to reviewing your work. If you have any questions or need clarification, feel free to reach out.
-
-Best regards,
-ASTAR Hiring Team
+There is a Postman collection available for each endpoint in this project.
